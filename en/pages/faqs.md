@@ -1,4 +1,4 @@
-## 常见问题
+## Faqs
 
 
 #### Regarding dialing 691, why is the password correct? Dial-up authentication will also prompt 691 password error?
