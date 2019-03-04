@@ -29,8 +29,8 @@
     "variables": {},
     "links": {
         "sidebar": {
-            "PDF Book (zh)": "https://github.com/talincode/blog.toughradius.net/raw/master/book_zh.pdf",
-            "PDF Book (en)": "https://github.com/talincode/blog.toughradius.net/raw/master/book_en.pdf"
+            "PDF Book (zh)": "http://docs.toughradius.net/book_zh.pdf",
+            "PDF Book (en)": "http://docs.toughradius.net/book_en.pdf"
         }
     },
     "pdf": {
