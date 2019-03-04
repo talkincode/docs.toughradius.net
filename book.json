@@ -1,0 +1,47 @@
+{
+    "output": "",
+    "generator": "site",
+    "title": "TOUGHRADIUS Book",
+    "author": "docs.toughradius.net",
+    "description": "",
+    "isbn": "",
+    "extension": "",
+    "plugins": [
+        "-highlight"
+    ],
+    "style":{
+        "website":"styles/website.css"
+    },
+    "pluginsConfig": {
+        "fontSettings": {
+          "theme": "white",
+          "family": "msyh",
+          "size": 2
+        },
+        "theme-default": {
+            "showLevel": false
+        },
+        "plugins": [
+          "yahei",
+		  "lunr"
+        ]
+    },
+    "variables": {},
+    "links": {
+        "sidebar": {
+            "PDF Book": "https://github.com/talincode/blog.toughradius.net/raw/master/toughradius-book.pdf"
+        }
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": false,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 36,
+            "left": 36,
+            "top": 48,
+            "bottom": 48
+        }
+    }
+}
