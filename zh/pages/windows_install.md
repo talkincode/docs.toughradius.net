@@ -8,7 +8,7 @@ TOUGHRADIUS 依赖的 Java 版本最低为1.8，下载地址 [Java1.8](https://w
 ### 获得 TOUGHRADIUS 的编译文件 toughradius-latest.jar
 
 - 可以自行通过Maven工具或Java Ide工具进行编译
-- 从官方 QQ 群获取最新编译好的jar文件
+- 从官方 QQ 群（247860313）获取最新编译好的jar文件
 
 
 ### 准备 MySQL 数据库环境

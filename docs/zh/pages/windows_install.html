@@ -1,0 +1,372 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Windows 安装运行 · TOUGHRADIUS Book</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="docs.toughradius.net">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="database.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://docs.toughradius.net/book_zh.pdf" target="_blank" class="custom-link">PDF Book (zh)</a>
+        </li>
+    
+        
+        <li>
+            <a href="http://docs.toughradius.net/book_en.pdf" target="_blank" class="custom-link">PDF Book (en)</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="faqs.html">
+            
+                <a href="faqs.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="quickstart.html">
+            
+                <a href="quickstart.html">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="database.html">
+            
+                <a href="database.html">
+            
+                    
+                    数据库安装配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="windows_install.html">
+            
+                <a href="windows_install.html">
+            
+                    
+                    Windows 安装运行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Windows 安装运行</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="windows-&#x5B89;&#x88C5;&#x8FD0;&#x884C;">Windows &#x5B89;&#x88C5;&#x8FD0;&#x884C;</h2>
+<h3 id="java-&#x8FD0;&#x884C;&#x73AF;&#x5883;">java &#x8FD0;&#x884C;&#x73AF;&#x5883;</h3>
+<p>TOUGHRADIUS &#x4F9D;&#x8D56;&#x7684; Java &#x7248;&#x672C;&#x6700;&#x4F4E;&#x4E3A;1.8&#xFF0C;&#x4E0B;&#x8F7D;&#x5730;&#x5740; <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java1.8</a></p>
+<h3 id="&#x83B7;&#x5F97;-toughradius-&#x7684;&#x7F16;&#x8BD1;&#x6587;&#x4EF6;-toughradius-latestjar">&#x83B7;&#x5F97; TOUGHRADIUS &#x7684;&#x7F16;&#x8BD1;&#x6587;&#x4EF6; toughradius-latest.jar</h3>
+<ul>
+<li>&#x53EF;&#x4EE5;&#x81EA;&#x884C;&#x901A;&#x8FC7;Maven&#x5DE5;&#x5177;&#x6216;Java Ide&#x5DE5;&#x5177;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;</li>
+<li>&#x4ECE;&#x5B98;&#x65B9; QQ &#x7FA4;&#xFF08;247860313&#xFF09;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#x7F16;&#x8BD1;&#x597D;&#x7684;jar&#x6587;&#x4EF6;</li>
+</ul>
+<h3 id="&#x51C6;&#x5907;-mysql-&#x6570;&#x636E;&#x5E93;&#x73AF;&#x5883;">&#x51C6;&#x5907; MySQL &#x6570;&#x636E;&#x5E93;&#x73AF;&#x5883;</h3>
+<p>&#x8BF7;&#x53C2;&#x8003; <a href="database.html">&#x6570;&#x636E;&#x5E93;&#x914D;&#x7F6E;</a></p>
+<h3 id="&#x81EA;&#x5B9A;&#x4E49;&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x81EA;&#x5B9A;&#x4E49;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h3>
+<p>&#x5728;&#x8FD0;&#x884C;&#x76EE;&#x5F55;&#x4E0B;&#x65B0;&#x5EFA;&#x914D;&#x7F6E;&#x6587;&#x4EF6; application.properties, &#x6839;&#x636E;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x81EA;&#x884C;&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#xFF0C;&#x7279;&#x522B;&#x662F;&#x6570;&#x636E;&#x5E93;&#x90E8;&#x5206;</p>
+<pre><code>server.port = 1816
+server.security.require-ssl=true
+server.ssl.key-store-type=PKCS12
+server.ssl.key-store=classpath:toughradius.p12
+# The password used to generate the certificate
+server.ssl.key-store-password=toughstruct
+# The alias mapped to the certificate
+server.ssl.key-alias=toughradius
+
+server.http2.enabled=true
+server.address=0.0.0.0
+server.connection-timeout=600
+server.server-header=toughradius/1.0
+server.tomcat.accesslog.enabled=true
+server.tomcat.accesslog.directory=/var/log/toughradius
+spring.application.name=toughradius
+
+mybatis.config-locations=classpath:mybatis-config.xml
+mybatis.mapper-locations=classpath:mapper/*.xml
+
+# logging
+logging.config=classpath:logback-dev.xml
+logging.level.root=INFO
+logging.level.org.springframework.web=INFO
+
+# http
+spring.http.encoding.force=true
+spring.http.encoding.charset=UTF-8
+spring.http.encoding.enabled=true
+server.tomcat.uri-encoding=UTF-8
+spring.output.ansi.enabled=detect
+spring.jackson.time-zone=GMT+8
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+
+# component
+spring.cache.type=ehcache
+spring.cache.ehcache.config=classpath:/ehcache.xml
+
+#radius config
+org.toughradius.running=true
+org.toughradius.authport=${RADIUSD_AUTH_PORT:1812}
+org.toughradius.acctport=${RADIUSD_ACCT_PORT:1813}
+org.toughradius.rejectdelayEnabled=${RADIUSD_REJECT_DELAY_ENABLED:1}
+org.toughradius.rejectdelayTimes=${RADIUSD_REJECT_DELAY_TIMES:10}
+org.toughradius.rejectdelay=${RADIUSD_REJECT_DELAY:3}
+org.toughradius.trace=${RADIUSD_DEBUG:1}
+org.toughradius.authPool=${RADIUSD_AUTH_POOL:32}
+org.toughradius.acctPool=${RADIUSD_ACCT_POOL:32}
+org.toughradius.interimUpdate=120
+org.toughradius.maxSessionTimeout=86400
+org.toughradius.statDir=${RADIUSD_STAT_DIR:/var/toughradius/data/stat}
+org.toughradius.ticketDir=${RADIUSD_TICKET_DIR:/var/toughradius/data/ticket}
+org.toughradius.statfile=${RADIUSD_STAT_FILE:/var/toughradius/radiusd_stat.json}
+org.toughradius.isBillInput=true
+org.toughradius.isBillBackFlow=true
+org.toughradius.allowNegative=${RADIUSD_ALLOW_NAGATIVE:false}
+
+application.apikey = toughradius
+application.apisecret = toughradius
+application.version = v6.0.1
+
+logging.config=classpath:logback-prod.xml
+
+# database config
+spring.datasource.url=${RADIUS_RPCD_JDBC_URL:jdbc:mysql://127.0.0.1:3306/toughradius?serverTimezone=Asia/Shanghai&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true}
+spring.datasource.username=${RADIUS_RPCD_DBUSER:raduser}
+spring.datasource.password=${RADIUS_RPCD_DBPWD:radpwd}
+spring.datasource.max-active=${RADIUS_RPCD_DBPOOL:120}
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+</code></pre><h3 id="&#x8FD0;&#x884C;">&#x8FD0;&#x884C;</h3>
+<p>&#x5728;&#x8FD0;&#x884C;&#x76EE;&#x5F55;&#x4E0B;&#x65B0;&#x5EFA; startup.bat &#x6587;&#x4EF6;&#xFF0C;&#x5185;&#x5BB9;&#x4E3A;</p>
+<pre><code>java -jar -Xms256M -Xmx1024M toughradius-latest.jar
+</code></pre><p>&#x53CC;&#x51FB;&#x8FD0;&#x884C; startup.bat &#x5373;&#x53EF;</p>
+<h3 id="&#x9644;&#x6CE8;">&#x9644;&#x6CE8;</h3>
+<p>&#x5982;&#x679C;&#x719F;&#x6089; Springboot &#x7A0B;&#x5E8F;&#x90E8;&#x7F72;&#x7684;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;&#x4EE5;&#x4E0A;&#x8BF4;&#x660E;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="database.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 数据库安装配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Windows 安装运行","level":"1.5","depth":1,"previous":{"title":"数据库安装配置","level":"1.4","depth":1,"path":"pages/database.md","ref":"pages/database.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-highlight"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"fontSettings":{"theme":"white","family":"msyh","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"plugins":["yahei","lunr"],"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}},"theme":"default","author":"docs.toughradius.net","style":{"website":"styles/website.css"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"TOUGHRADIUS Book","language":"zh","links":{"sidebar":{"PDF Book (zh)":"http://docs.toughradius.net/book_zh.pdf","PDF Book (en)":"http://docs.toughradius.net/book_en.pdf"}},"gitbook":"*","description":"","extension":""},"file":{"path":"pages/windows_install.md","mtime":"2019-03-26T15:14:47.770Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-26T15:14:56.435Z"},"basePath":"..","book":{"language":"zh"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
